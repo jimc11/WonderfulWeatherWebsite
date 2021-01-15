@@ -33,6 +33,11 @@ header a{
     margin-right:16px;
     text-decoration:none;
 }
+.linkText a{
+    color: #888888;
+    margin-right:16px;
+    text-decoration:none;
+}
 .portrait {
     width: 250px;
 }
