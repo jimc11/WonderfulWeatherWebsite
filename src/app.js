@@ -5,6 +5,7 @@ const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
 
 const app = express()
+const port = process.env.PORT || 3000; // 3000 on my machine or PORT on GoDaddy's server
 
 // define paths for Express
 const publicDirPath = path.join(__dirname,'../public')
@@ -78,5 +79,4 @@ app.get('*', (req, res) => {
 })
 
 
-const port = process.env.PORT || 3000; // 3000 on my machine or PORT on GoDaddy's server
 app.listen(port, () => console.log(`App listening on port ${port}`));
