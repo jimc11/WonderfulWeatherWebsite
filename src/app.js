@@ -35,7 +35,7 @@ app.get('/about',(req,res) => {
 app.get('/help',(req,res) => {
     res.render('help',{
         title: 'Help',
-        message: 'Please contact me at jamesrobert.crowley@sjsu.edu if you noticed a bug in this program.',
+        message: 'Please contact me at jamesrobertcrowley@gmail.com if you noticed a bug in this program.',
         name: 'James Crowley'
     })
 })
